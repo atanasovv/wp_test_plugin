@@ -1,0 +1,18 @@
+{
+    "name": "vakistudio/wp_test_plugin",
+    "description": "This plugin will enable your WP to manage successfully you coaching sessions",
+    "type": "project",
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "Inc\\": "./inc"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vladislav Atanasov",
+            "email": "vladislav2502@gmail.com"
+        }
+    ],
+    "require": {}
+}

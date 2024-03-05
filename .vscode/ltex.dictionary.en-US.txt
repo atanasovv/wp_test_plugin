@@ -1,0 +1,4 @@
+getElementById
+addEventListener
+setData
+dataTransfer

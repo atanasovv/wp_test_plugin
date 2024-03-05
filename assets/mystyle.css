@@ -1,0 +1,70 @@
+#main-container {
+    display: flex;
+    justify-content: space-around; /* Distributes space between children */
+    padding: 20px;
+  }
+  
+  /* Style for the drag container */
+  #drag-container {
+    padding: 20px;
+    width: 30%; /* Adjust based on your preference */
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style for the draggable element */
+  #draggable {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #6281f0;
+    color: #f9f9f9;
+    border-radius: 4px;
+    cursor: grab;
+    user-select: none; /* Prevents the text from being selected while dragging */
+    text-align: center;
+  }
+  
+  /* Hover effect for draggable element */
+  #draggable:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style for the drop container */
+  #drop-container {
+    padding: 20px;
+    width: 60%; /* Adjust based on your preference */
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    min-height: 300px; /* Ensures the drop area is visibly large enough */
+  }
+  
+  /* Style for the form inside the drop container */
+  .form-container {
+    margin-top: 20px;
+  }
+  
+  /* Style for the submit button */
+  .form-container form input[type="submit"]
+  .form-container form input[type="email"],
+  .form-container form input[type="password"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s;
+  }
+  
+/* Styling for input fields on focus */
+.form-container form input[type="text"]:focus,
+.form-container form input[type="email"]:focus,
+.form-container form input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+  /* Change background color slightly on hover */
+.form-container form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
