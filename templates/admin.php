@@ -1,13 +1,7 @@
-{% include "Base\Helpers" 
-availableTemplates = enumerate_templates()
-%}
-
 <div class="wrap">
 <div id="main-container">
   <div id="drag-container">
-    {%  foreach (template in availableTemplates)
-      echo(template) %}
-    </div>
+  </div>
   </div>
   <div id="drop-container">
     <h2>My form Name</h2>
